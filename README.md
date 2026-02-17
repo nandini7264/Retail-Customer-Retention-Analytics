@@ -59,94 +59,49 @@ These datasets collectively enable demographic analysis, transaction tracking, l
 
 ## 🧹 Data Modeling & Cleaning
 
-- Loaded and transformed datasets using Power Query  
-- Handled duplicates and missing values  
-- Standardized data types and date formats  
-- Created calculated columns:
-  - Membership Duration  
-  - Transaction Year & Month  
-- Built relational data model:
-  - One-to-Many: Customers → Transactions, Loyalty, Churn  
-  - Many-to-One: Transactions → Store Locations  
+- Performed data transformation in Power Query including handling missing values, removing duplicates, and standardizing data types.
+- Built relational data model connecting customers, transactions, loyalty, churn, and store tables.
+- Created calculated columns for membership duration and time-based transaction analysis.
 
 ---
 
 ## 📉 Churn & Retention Metrics
 
-- Calculated Churn Rate KPI:
-
-  Churn Rate = (Churned Customers / Total Customers) × 100
-
-- Analyzed churn by:
-  - Region  
-  - Income Level  
-  - Preferred Channel  
-  - Loyalty Tier  
-
-- Designed retention funnel:
-  Total Customers → Repeat Customers → Churned Customers  
+- Calculated overall churn rate and segmented churn by region, income level, channel, and loyalty tier.
+- Designed a customer funnel to analyze movement from total customers to repeat and churned segments.
+- Identified high-risk customer groups contributing most to churn.
 
 ---
 
 ## 🔁 Repeat Purchase Analysis
 
-- Segmented customers:
-  - Low-Tier (0–3 purchases)  
-  - Mid-Tier (4–8 purchases)  
-  - High-Tier (9+ purchases)  
-
-- Compared average purchase frequency by:
-  - Region  
-  - Age Group  
-  - Loyalty Tier  
-
-- Identified most purchased categories among loyal customers  
+- Segmented customers based on purchase frequency to identify low, mid, and high-value repeat buyers.
+- Compared repeat behavior across regions, age groups, and loyalty tiers.
+- Determined product categories most preferred by loyal customers.
 
 ---
 
 ## 🎁 Promotion & Loyalty Impact
 
-- Calculated % of transactions with promotions  
-- Compared average purchase amount:
-  - With Promotion  
-  - Without Promotion  
-
-- Analyzed churn rate across loyalty tiers  
-- Visualized Points Earned vs Points Redeemed  
-- Assessed effectiveness of loyalty engagement strategies  
+- Analyzed transaction data to measure the impact of promotions on average purchase value.
+- Evaluated loyalty tier performance using churn comparison and redemption behavior.
+- Assessed how engagement through loyalty points influenced retention.
 
 ---
 
 ## 🏬 Store & Channel Performance
 
-- Merged store data with transaction data  
-- Evaluated:
-  - Average transaction value by Store Type  
-  - Churn rate by Store Type  
-  - Correlation between Store Opening Year & Retention  
-
-- Compared performance of:
-  - Supercenters  
-  - Neighborhood Markets  
-  - Online  
-  - Sam’s Club  
+- Merged transaction and store data to evaluate performance across store formats and online channels.
+- Compared churn and average transaction value by store type.
+- Analyzed relationship between store maturity and customer retention trends.
 
 ---
 
 ## 💰 Customer Lifetime Value (CLV) Analysis
 
-CLV Formula:
-
-CLV = Total Amount Spent / Membership Duration (Years)
-
-- Segmented customers into:
-  - High CLV (Above Average)  
-  - Low CLV (Below Average)  
-
-- Visualized:
-  - CLV vs Days Since Last Purchase  
-  - CLV by Loyalty Tier  
-  - CLV by Region  
+- Calculated CLV using total spend and membership duration.
+- Segmented customers into high and low CLV groups for strategic targeting.
+- Analyzed CLV distribution across loyalty tiers and regions to identify revenue-driving segments.
 
 ---
 
